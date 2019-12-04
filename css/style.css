@@ -1,0 +1,72 @@
+header {
+  width: 100%;
+  height: 40px;
+  float: left;
+  border: solid thin;
+}
+
+main {
+  width: 85%;
+  float: left;
+  height: auto;
+  border: solid thin green;
+}
+
+article,
+.middle {
+  width: 80%;
+  margin-left: 20%;
+  float: left;
+}
+
+main img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.author {
+  width: 100%;
+  float: left;
+}
+
+.date,
+.social-links {
+  width: 50%;
+  height: 15px;
+  float: left;
+}
+
+.text {
+  padding: 0 15%;
+}
+
+.col {
+  width: 23%;
+  height: 300px;
+  float: left;
+  margin: 5px;
+}
+
+.col img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.col p {
+  width: 100%;
+  font-size: 14px;
+}
+
+.editor-picks {
+  width: 15%;
+  height: auto;
+  float: left;
+  border: solid thin red;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: grey;
+}

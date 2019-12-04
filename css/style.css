@@ -9,11 +9,9 @@ main {
   width: 85%;
   float: left;
   height: auto;
-  border: solid thin green;
 }
 
-article,
-.middle {
+article {
   width: 80%;
   margin-left: 20%;
   float: left;
@@ -53,16 +51,15 @@ main img {
   object-fit: contain;
 }
 
-.col p {
+section p {
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .editor-picks {
   width: 15%;
   height: auto;
   float: left;
-  border: solid thin red;
 }
 
 footer {

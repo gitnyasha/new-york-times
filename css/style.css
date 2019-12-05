@@ -64,6 +64,10 @@ article {
   float: left;
 }
 
+.title {
+  text-align: center;
+}
+
 .author {
   width: 100%;
   float: left;
@@ -239,4 +243,11 @@ footer {
   padding: 0 2em;
   list-style: none;
   border-left: 1px solid #888;
+}
+
+.copyright {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 11px;
 }

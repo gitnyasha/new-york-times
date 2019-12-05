@@ -93,6 +93,10 @@ main img {
   margin: 20px 0;
 }
 
+.text .right {
+  border-top: none;
+}
+
 .info {
   font-size: 10px;
 }
@@ -137,19 +141,49 @@ section p {
 
 .bottom {
   width: 90%;
-  height: 1000px;
+  height: 700px;
   float: left;
   margin-left: 5%;
 }
 
-.bottom .col {
-  width: 32%;
+.bottom p {
+  padding-left: 10px;
 }
 
-.bottom .editor {
-  width: 90%;
-  display: block;
-  border-bottom: solid thin grey;
+.bottom .col {
+  width: 32%;
+  height: 250px;
+}
+
+.bottom .left,
+.right {
+  float: left;
+  border-top: solid thin;
+}
+
+.border .left {
+  width: 65%;
+}
+
+.border .right {
+  width: 30%;
+  margin-left: 5%;
+}
+
+.bottom .line {
+  width: 100%;
+  border-top: solid;
+}
+
+.editor {
+  width: 65%;
+  margin-left: 5%;
+  float: left;
+  border-top: solid thin;
+}
+
+.editor .col {
+  width: 31%;
 }
 
 footer {

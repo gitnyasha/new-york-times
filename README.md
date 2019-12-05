@@ -20,7 +20,7 @@ It displays our skills in using HTML5, CSS3 and configuring `stylelint` to ensur
 
 ## Live Demo
 
-[Live Demo](https://sign-up-mint.netlify.com/)
+[Live Demo](https://stoic-davinci-2b4034.netlify.com/)
 
 ## Getting Started
 

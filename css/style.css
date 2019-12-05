@@ -16,11 +16,22 @@ header .center {
   float: left;
 }
 
+.fab,
+.fas,
+.far {
+  padding-left: 10px;
+}
+
 .topleft .fas,
 a {
   text-decoration: none;
   color: black;
   padding: 5px;
+}
+
+main img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .center img {
@@ -32,7 +43,7 @@ a {
 
 .topright a {
   font-size: 14px;
-  background: #336699;
+  background: #369;
   color: #fff;
   border-radius: 4px;
   padding: 10px;
@@ -52,11 +63,6 @@ article {
   float: left;
 }
 
-main img {
-  width: 100%;
-  object-fit: contain;
-}
-
 .author {
   width: 100%;
   float: left;
@@ -70,7 +76,7 @@ main img {
 }
 
 .left .comments {
-  background: #336699;
+  background: #369;
   color: #fff;
   padding: 10px 30px;
 }
@@ -82,15 +88,15 @@ main img {
   margin: 20px 0;
 }
 
-.fab,
-.fas,
-.far {
-  padding-left: 10px;
-}
-
 .text {
   padding: 0 15%;
   margin: 20px 0;
+}
+
+.bottom .left,
+.right {
+  float: left;
+  border-top: solid thin;
 }
 
 .text .right {
@@ -153,12 +159,6 @@ section p {
 .bottom .col {
   width: 32%;
   height: 250px;
-}
-
-.bottom .left,
-.right {
-  float: left;
-  border-top: solid thin;
 }
 
 .border .left {

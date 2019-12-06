@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap");
+
+.header-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 1rem;
+  border-bottom: 1px solid #d9d9d9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+
+.header-col {
+  padding: 0.3rem 0;
+  grid-column: span 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-col-1 {
+  align-items: center;
+}
+
+.header-col-1 i.fa {
+  padding: 0.4rem;
+  font-size: 0.9em;
+  margin-right: 1rem;
+  border-radius: 0.1rem;
+}
+
+.header-col-1 i.fa:hover {
+  background: #e6e6e6;
+}
+
+.header-col-1 h2 {
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.85em;
+  font-weight: 1000;
+  text-transform: uppercase;
+  float: left;
+  padding-left: 1em;
+}
+
+.header-col-1 h2:hover {
+  text-decoration: underline;
+}
+
+.header-col-2 {
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.header-col-2 img {
+  width: 12rem;
+  margin-bottom: -0.1rem;
+}
+
+.header-col-3 {
+  align-items: center;
+  justify-content: right;
+}
+
+.header-col-3 div {
+  margin-left: auto;
+}
+
+.header-col-3 div button {
+  margin-left: 0.5rem;
+  float: right;
+}
+
+.btn {
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.95rem;
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 0.7em;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+.btn-blue {
+  border: 1px solid #4d6e87;
+  background: #6288a5;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background: #446177;
+}
+
+.btn-large {
+  padding: 0.5rem 5rem;
+}

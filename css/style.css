@@ -28,7 +28,7 @@ header .center {
 .fab,
 .fas,
 .far {
-  padding: 10px;
+  padding: 5px;
 }
 
 .topleft .fas,
@@ -62,6 +62,7 @@ main img {
 
 main {
   width: 85%;
+  margin-top: 100px;
   float: left;
   height: auto;
 }
@@ -179,7 +180,7 @@ section p {
 }
 
 .border .right {
-  width: 30%;
+  width: 35%;
   margin-left: 5%;
 }
 

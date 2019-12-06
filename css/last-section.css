@@ -1,0 +1,47 @@
+.news-images {
+  width: 270px;
+  height: 180px;
+  padding-left: 15px;
+  margin-bottom: 8%;
+}
+
+.first-line {
+  display: flex;
+}
+
+.aside-news {
+  width: 25%;
+  padding-left: 3%;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.news-image {
+  padding-bottom: 5px;
+}
+
+.border-line {
+  border-top: 1px solid black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.grid-news > .border-line,
+.editor > .border-line {
+  margin-left: 2%;
+}
+
+.news-images > figure > figcaption {
+  font-size: 18px;
+  color: #121212;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.news-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,12 +1,12 @@
 # HTML AND CSS New York Times Page Clone
 
-A sign-up form using HTML5 AND CSS3 using correct semantic tags.
+A New York Times page using floats and positioning.
 
 ![screenshot](https://user-images.githubusercontent.com/43377799/70178359-33c79700-16ed-11ea-8789-928710ce8b9a.png)
 
 # What it does
 
-It displays our skills in using HTML5, CSS3 and configuring `stylelint` to ensure standand coding style
+It displays our skills in positioning and floats configuring `stylelint` to ensure standand coding style
 
 ## Built With
 
